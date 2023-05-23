@@ -1,0 +1,9 @@
+streamlit
+logging
+# opentelemetry
+opentelemetry-api
+# opentelemetry-sdk
+# streamlit==0.92.1
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp
