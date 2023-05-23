@@ -7,6 +7,7 @@ from opentelemetry.sdk.trace.export import BatchSpanProcessor
 import PyPDF2
 import time
 import json
+import re
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -33,14 +34,19 @@ def process_log(log_data, text_filter):
     with tracer.start_as_current_span("Log Processing"):
         time.sleep(1)  # Simulating processing time
         filtered_lines = [
-            ' '.join(line.split())  # Remove double spaces
+            re.sub(
+                f"({re.escape(text_filter)})",
+                r"<span style='background-color: green; font-weight: bold; font-size: 130%;'>\1</span>",
+                line,
+                flags=re.IGNORECASE
+            )
             for line in log_data
-            if text_filter.lower() in line.lower()
+            if re.search(re.escape(text_filter), line, flags=re.IGNORECASE)
         ]
         return filtered_lines
 
 def write_to_log_file(log_entry):
-    log_file_path = 'logs/app_log.txt'
+    log_file_path = 'app_log.json'
     
     with open(log_file_path, 'a') as file:
         file.write(json.dumps(log_entry) + '\n')
@@ -64,8 +70,8 @@ def main():
             filtered_lines = process_log(pdf_lines, text_filter)
             
             for line in filtered_lines:
-                st.markdown(f"<pre>{line}</pre>", unsafe_allow_html=True)
-            
+                st.markdown(line, unsafe_allow_html=True)
+
             upload_end_time = time.time()
             latency = upload_end_time - upload_start_time
             logger.info("PDF upload and rendering latency: %.2f seconds", latency)
