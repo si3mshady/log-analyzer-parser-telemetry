@@ -32,7 +32,11 @@ def process_log(log_data, text_filter):
     tracer = trace.get_tracer_provider().get_tracer(__name__)
     with tracer.start_as_current_span("Log Processing"):
         time.sleep(1)  # Simulating processing time
-        filtered_lines = [line.replace(text_filter, f"<span style='font-size:300%; color:green'>{text_filter}</span>") for line in log_data if text_filter.lower() in line.lower()]
+        filtered_lines = [
+            ' '.join(line.split())  # Remove double spaces
+            for line in log_data
+            if text_filter.lower() in line.lower()
+        ]
         return filtered_lines
 
 def write_to_log_file(log_entry):
@@ -60,7 +64,7 @@ def main():
             filtered_lines = process_log(pdf_lines, text_filter)
             
             for line in filtered_lines:
-                st.markdown(line, unsafe_allow_html=True)
+                st.markdown(f"<pre>{line}</pre>", unsafe_allow_html=True)
             
             upload_end_time = time.time()
             latency = upload_end_time - upload_start_time
