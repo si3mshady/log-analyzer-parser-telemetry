@@ -50,3 +50,36 @@
 {"@timestamp": "2023-05-23 17:54:18,299", "message": "Time to display output on screen: 0.00 seconds", "log.level": "INFO"}
 {"@timestamp": 1684882456100, "message": "PDF upload and rendering latency: 2.20 seconds", "log.level": "INFO"}
 {"@timestamp": 1684882458298, "message": "Time to display output on screen: 0.00 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:24:41,292", "message": "Processing PDF file: On DevOps — 25. Hardening Your Kubernetes Cluster — Why It Matters, K8s Components Recap, and Threat Model _ by Tiexin Guo _ 4th Coffee _ Medium.pdf", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:24:41,292", "message": "Processing PDF file: On DevOps — 25. Hardening Your Kubernetes Cluster — Why It Matters, K8s Components Recap, and Threat Model _ by Tiexin Guo _ 4th Coffee _ Medium.pdf", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:24:41,332", "message": "PDF upload and rendering latency: 2.33 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:24:41,332", "message": "PDF upload and rendering latency: 2.33 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:24:41,332", "message": "Time to display output on screen: 0.00 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:24:41,332", "message": "Time to display output on screen: 0.00 seconds", "log.level": "INFO"}
+{"@timestamp": 1684887879002, "message": "PDF upload and rendering latency: 2.33 seconds", "log.level": "INFO"}
+{"@timestamp": 1684887881332, "message": "Time to display output on screen: 0.00 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:24:51,504", "message": "Processing PDF file: On DevOps — 25. Hardening Your Kubernetes Cluster — Why It Matters, K8s Components Recap, and Threat Model _ by Tiexin Guo _ 4th Coffee _ Medium.pdf", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:24:51,504", "message": "Processing PDF file: On DevOps — 25. Hardening Your Kubernetes Cluster — Why It Matters, K8s Components Recap, and Threat Model _ by Tiexin Guo _ 4th Coffee _ Medium.pdf", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:24:51,504", "message": "Processing PDF file: On DevOps — 25. Hardening Your Kubernetes Cluster — Why It Matters, K8s Components Recap, and Threat Model _ by Tiexin Guo _ 4th Coffee _ Medium.pdf", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:24:51,507", "message": "PDF upload and rendering latency: 2.28 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:24:51,507", "message": "PDF upload and rendering latency: 2.28 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:24:51,507", "message": "PDF upload and rendering latency: 2.28 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:24:51,507", "message": "Time to display output on screen: 0.00 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:24:51,507", "message": "Time to display output on screen: 0.00 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:24:51,507", "message": "Time to display output on screen: 0.00 seconds", "log.level": "INFO"}
+{"@timestamp": 1684887889225, "message": "PDF upload and rendering latency: 2.28 seconds", "log.level": "INFO"}
+{"@timestamp": 1684887891507, "message": "Time to display output on screen: 0.00 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:25:01,517", "message": "Processing PDF file: On DevOps — 25. Hardening Your Kubernetes Cluster — Why It Matters, K8s Components Recap, and Threat Model _ by Tiexin Guo _ 4th Coffee _ Medium.pdf", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:25:01,517", "message": "Processing PDF file: On DevOps — 25. Hardening Your Kubernetes Cluster — Why It Matters, K8s Components Recap, and Threat Model _ by Tiexin Guo _ 4th Coffee _ Medium.pdf", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:25:01,517", "message": "Processing PDF file: On DevOps — 25. Hardening Your Kubernetes Cluster — Why It Matters, K8s Components Recap, and Threat Model _ by Tiexin Guo _ 4th Coffee _ Medium.pdf", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:25:01,517", "message": "Processing PDF file: On DevOps — 25. Hardening Your Kubernetes Cluster — Why It Matters, K8s Components Recap, and Threat Model _ by Tiexin Guo _ 4th Coffee _ Medium.pdf", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:25:01,522", "message": "PDF upload and rendering latency: 2.30 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:25:01,522", "message": "PDF upload and rendering latency: 2.30 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:25:01,522", "message": "PDF upload and rendering latency: 2.30 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:25:01,522", "message": "PDF upload and rendering latency: 2.30 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:25:01,522", "message": "Time to display output on screen: 0.00 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:25:01,522", "message": "Time to display output on screen: 0.00 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:25:01,522", "message": "Time to display output on screen: 0.00 seconds", "log.level": "INFO"}
+{"@timestamp": "2023-05-23 19:25:01,522", "message": "Time to display output on screen: 0.00 seconds", "log.level": "INFO"}
+{"@timestamp": 1684887899220, "message": "PDF upload and rendering latency: 2.30 seconds", "log.level": "INFO"}
+{"@timestamp": 1684887901522, "message": "Time to display output on screen: 0.00 seconds", "log.level": "INFO"}
