@@ -3,9 +3,16 @@ filebeat.inputs:
   enabled: true
   paths:
     - /logs/*.log #inside of container
+    - /usr/share/filebeat/*.log
+
+  json.keys_under_root: true
+  json.overwrite_keys: true
+  json.add_error_key: true
+  json.expand_keys: true
 
 output.elasticsearch:
   hosts: ['elasticsearch:9200']
 
 setup.kibana:
   host: "kibana:5601"
+
